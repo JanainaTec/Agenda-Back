@@ -1,3 +1,6 @@
+using Agenda.Infra.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace Agenda
 {
     public class Program
@@ -12,6 +15,9 @@ namespace Agenda
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            builder.Services.AddDbContext<DataContext>(option =>
+            option.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
