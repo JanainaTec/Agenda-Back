@@ -59,3 +59,4 @@ C:\Users\janai\source\Repos\Agenda-Back\Agenda\Agenda\obj\Debug\net6.0\refint\Ag
 C:\Users\janai\source\Repos\Agenda-Back\Agenda\Agenda\obj\Debug\net6.0\Agenda.pdb
 C:\Users\janai\source\Repos\Agenda-Back\Agenda\Agenda\obj\Debug\net6.0\Agenda.genruntimeconfig.cache
 C:\Users\janai\source\Repos\Agenda-Back\Agenda\Agenda\obj\Debug\net6.0\ref\Agenda.dll
+C:\Users\janai\source\Repos\Agenda-Back\Agenda\Agenda\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
